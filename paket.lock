@@ -1,0 +1,18 @@
+STORAGE: NONE
+RESTRICTION: == netstandard2.0
+NUGET
+  remote: https://www.nuget.org/api/v2
+    Fable.Core (2.0.3)
+      FSharp.Core (>= 4.5.2)
+    Fable.Import.VSCode (0.1.2)
+      Fable.Core (>= 1.0.8)
+      FSharp.Core (>= 4.2.1)
+    Fable.Parsimmon (3.1)
+      Fable.Core (>= 2.0)
+      FSharp.Core (>= 4.5.2)
+    FSharp.Core (4.5.4) - redirects: force
+GITHUB
+  remote: nojaf/fable-jest
+    fable/Bindings.fs (60b934633faac4222683a097e73a59dec306543b)
+    fable/Exports.fs (60b934633faac4222683a097e73a59dec306543b)
+    fable/Matchers.fs (60b934633faac4222683a097e73a59dec306543b)

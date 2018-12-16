@@ -36,6 +36,8 @@
         "eslint": "^4.11.0",
         "fable-compiler": "^2.1.8",
         "fable-splitter": "^2.1.0",
+        "jest": "^23.6.0",
+        "markdown-it": "^8.4.2",
         "typescript": "^2.6.1",
         "vscode": "^1.1.21"
     }

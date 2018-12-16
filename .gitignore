@@ -4,3 +4,6 @@ node_modules
 out/
 obj/
 .fable/
+.paket/.store
+.paket/paket.exe
+paket-files/
