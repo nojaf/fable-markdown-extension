@@ -7,7 +7,7 @@ NUGET
     Fable.Import.VSCode (0.1.2)
       Fable.Core (>= 1.0.8)
       FSharp.Core (>= 4.2.1)
-    Fable.Parsimmon (3.1)
+    Fable.Parsimmon (3.2)
       Fable.Core (>= 2.0)
       FSharp.Core (>= 4.5.2)
     FSharp.Core (4.5.4) - redirects: force
