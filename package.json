@@ -24,7 +24,7 @@
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
-        "build": "fable-splitter src/AdventExtension.fsproj --config splitter.config.js",
+        "build": "fable-splitter --config splitter.config.js",
         "watch": "yarn run build --watch",
         "test": "node ./node_modules/vscode/bin/test"
     },
