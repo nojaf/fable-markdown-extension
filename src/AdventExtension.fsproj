@@ -16,6 +16,9 @@
       <Paket>True</Paket>
       <Link>Jest/Matchers.fs</Link>
     </Compile>
+    <Compile Include="MarkdownIt.fs" />
+    <Compile Include="MarkdownPlugin.fs" />
+    <Compile Include="MarkdownPlugin.test.fs" />
     <Compile Include="Parser.fs" />
     <Compile Include="Parser.test.fs" />
     <Compile Include="Extension.fs" />
