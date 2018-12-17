@@ -15,11 +15,9 @@
     ],
     "main": "./out/Extension.js",
     "contributes": {
-        "commands": [
-            {
-                "command": "extension.sayHello",
-                "title": "Hello World"
-            }
+        "markdown.markdownItPlugins": true,
+        "markdown.previewStyles": [
+          "./fable.css"
         ]
     },
     "scripts": {

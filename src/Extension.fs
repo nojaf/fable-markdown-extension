@@ -90,6 +90,9 @@ let activate (context: ExtensionContext) =
     activeEditor
     |> Option.iter (triggerUpdateDecorations)
 
-    printfn "Fable extension activated!"
+    // Add render plugin
+    createObj [
+        "extendMarkdownIt" ==> (fun md -> md?``use``(MarkdownPlugin.fableMarkdownPlugin))
+    ]
 
     

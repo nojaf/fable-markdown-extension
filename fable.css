@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:400,600i');
+.fable {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #87c5fd;
+    font-size: 18px;
+}
+
+.fable-logo {
+    display: inline-block;
+    width: 24px;
+}
