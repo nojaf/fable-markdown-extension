@@ -1,5 +1,7 @@
 # fable-markdown-extension
 
+Source code for [https://blog.nojaf.com/2018/12/17/writing-a-vscode-plugin-with-fable-2-1/](https://blog.nojaf.com/2018/12/17/writing-a-vscode-plugin-with-fable-2-1/)
+
 ## Build
 
 - Install npm packages:
